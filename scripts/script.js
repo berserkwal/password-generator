@@ -5,10 +5,17 @@ const copy = document.querySelector(".copy-button");
 const rangeHover = document.querySelector(".value-hover");
 const copyTooltip = document.querySelector(".copy-tooltip");
 const randomizeTooltip = document.querySelector(".randomize-tooltip");
+const root = document.querySelector(":root");
 let passwordLength = slider.value;
 
 const validCharacters =
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=[]{};:',./?";
+
+root.style.setProperty("--vh", window.innerHeight / 100 + "px");
+
+window.addEventListener("resize", () => {
+	root.style.setProperty("--vh", window.innerHeight / 100 + "px");
+});
 
 function generatePassword(length) {
 	let result = "";
