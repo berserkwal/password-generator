@@ -100,7 +100,7 @@ button {
 	top: 0;
 	right: 0;
 	z-index: 100;
-	background: no-repeat center / 40% url(/assets/copy-icon.svg)
+	background: no-repeat center / 40% url(../assets/copy-icon.svg)
 		var(--clr-accent);
 	border: none;
 	border-radius: 0 5px 5px 0;
@@ -114,7 +114,8 @@ button {
 	top: 0;
 	right: 3rem;
 	z-index: 100;
-	background: no-repeat center / 40% url(/assets/random-icon.svg) var(--clr-txt);
+	background: no-repeat center / 40% url(../assets/random-icon.svg)
+		var(--clr-txt);
 	border: none;
 	/* border-right: solid 1px var(--clr-bg); */
 	cursor: pointer;
