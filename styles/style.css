@@ -208,6 +208,7 @@ button:hover::after {
 
 label {
 	position: absolute;
+	top: 5rem;
 	opacity: 0;
 }
 
