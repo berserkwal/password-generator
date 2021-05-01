@@ -20,7 +20,7 @@ window.addEventListener("resize", () => {
 function generatePassword(length) {
 	let result = "";
 	let validCharactersLength = validCharacters.length;
-	for (let i = 0; i <= length; i++) {
+	for (let i = 0; i < length; i++) {
 		result += validCharacters.charAt(
 			Math.floor(Math.random() * validCharactersLength)
 		);
