@@ -204,6 +204,7 @@ button:hover::after {
 	height: 1.5rem;
 	background: var(--clr-accent);
 	border-radius: 50%;
+	cursor: grab;
 }
 
 label {
