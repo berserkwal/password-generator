@@ -207,6 +207,10 @@ button:hover::after {
 	cursor: grab;
 }
 
+.range-slider::-webkit-slider-thumb:active {
+	cursor: grabbing;
+}
+
 label {
 	position: absolute;
 	top: 5rem;
