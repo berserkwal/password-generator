@@ -5,11 +5,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="A web app to generate a randomized secure password. Easy to use.">
+	<meta name="description"
+		content="A web app to generate a randomized secure password. Easy to use.">
 	<title>Password Generator</title>
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
@@ -19,20 +22,27 @@
 			<div class="text-box">
 				<span>random</span>
 			</div>
-			<button class="randomize-button" title="Randomize password" aria-label="randomize password"></button>
+			<button class="randomize-button" title="Randomize password"
+				aria-label="randomize password"></button>
 			<div class="tooltip randomize-tooltip">Randomized</div>
 
-			<button class="copy-button" title="Copy to clipboard" aria-label="copy to clipboard"></button>
+			<button class="copy-button" title="Copy to clipboard"
+				aria-label="copy to clipboard"></button>
 			<div class="tooltip copy-tooltip">Copied to clipboard</div>
 		</div>
-		<div class="slider-container" aria-label="slider to set the length of the password">
+		<div class="slider-container"
+			aria-label="slider to set the length of the password">
 			<label for="password-range">slider</label>
-			<input type="range" min="8" max="64" step="1" name="passwordLength" class="range-slider"
+			<input type="range" min="8" max="64" step="1" name="passwordLength"
+				class="range-slider"
 				id="password-range" value="8">
 			<div class="value-hover">8</div>
 		</div>
-		<p class="info-text">Move the slider to change the length of password.</p>
+		<p class="info-text">Move the slider to change the length of password.
+		</p>
 	</div>
+	<footer>Designed and developed by <a rel="noreferrer" target="_blank"
+			href="https://berserkwal.github.io">berserkwal</a></footer>
 	<script src="scripts/script.js"></script>
 </body>
 
