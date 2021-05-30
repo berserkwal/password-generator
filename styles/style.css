@@ -271,6 +271,7 @@ footer a {
 	color: var(--clr-txt);
 	background-color: var(--clr-accent);
 	padding: 0.25rem 0.5rem;
+	border-radius: 5px;
 }
 
 footer a:hover {
